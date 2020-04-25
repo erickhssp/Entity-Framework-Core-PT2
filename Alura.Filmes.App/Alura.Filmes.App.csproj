@@ -130,12 +130,19 @@
     <Compile Include="Dados\FilmeAtorConfiguration.cs" />
     <Compile Include="Dados\FilmeCategoriaConfiguration.cs" />
     <Compile Include="Dados\FilmeConfiguration.cs" />
-    <Compile Include="Dados\Idioma.cs" />
     <Compile Include="Dados\IdiomaConfiguration.cs" />
     <Compile Include="Extensions\DbContextExtensions.cs" />
-    <Compile Include="Migrations\20200407155200_Idioma.cs" />
-    <Compile Include="Migrations\20200407155200_Idioma.designer.cs">
-      <DependentUpon>20200407155200_Idioma.cs</DependentUpon>
+    <Compile Include="Migrations\20200425154734_Idioma.cs" />
+    <Compile Include="Migrations\20200425154734_Idioma.designer.cs">
+      <DependentUpon>20200425154734_Idioma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200425160039_IndiceAtorUltimoNome.cs" />
+    <Compile Include="Migrations\20200425160039_IndiceAtorUltimoNome.designer.cs">
+      <DependentUpon>20200425160039_IndiceAtorUltimoNome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200425162142_UniqueAtorPrimeiroUltimoNome.cs" />
+    <Compile Include="Migrations\20200425162142_UniqueAtorPrimeiroUltimoNome.designer.cs">
+      <DependentUpon>20200425162142_UniqueAtorPrimeiroUltimoNome.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AluraFilmesContextoModelSnapshot.cs" />
     <Compile Include="Negocio\Ator.cs" />
@@ -143,6 +150,7 @@
     <Compile Include="Negocio\Filme.cs" />
     <Compile Include="Negocio\FilmeAtor.cs" />
     <Compile Include="Negocio\FilmeCategoria.cs" />
+    <Compile Include="Negocio\Idioma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

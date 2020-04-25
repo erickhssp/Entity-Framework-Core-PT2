@@ -11,7 +11,7 @@ using System;
 namespace Alura.Filmes.App.Migrations
 {
     [DbContext(typeof(AluraFilmesContexto))]
-    [Migration("20200407195210_Idioma")]
+    [Migration("20200425154734_Idioma")]
     partial class Idioma
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

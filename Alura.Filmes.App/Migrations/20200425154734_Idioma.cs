@@ -140,15 +140,15 @@ namespace Alura.Filmes.App.Migrations
                 table: "film",
                 column: "original_language_id");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_film_actor_actor_id",
-                table: "film_actor",
-                column: "actor_id");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_film_actor_actor_id",
+            //    table: "film_actor",
+            //    column: "actor_id");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_film_category_category_id",
-                table: "film_category",
-                column: "category_id");
+            //migrationBuilder.CreateIndex(
+            //    name: "IX_film_category_category_id",
+            //    table: "film_category",
+            //    column: "category_id");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
